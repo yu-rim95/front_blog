@@ -56,7 +56,7 @@ function Header() {
               <NavLink to="/locker" className={`locker ${isActive('/locker')}`}>
                 <p>보관함</p>
               </NavLink>
-              <NavLink to="/login" className={`login ${isActive('/login')}`}>
+              <NavLink to="http://localhost:4200/login?redirect=http://localhost:3000/" className={`login ${isActive('/login')}`}>
                 <p>로그인</p>
               </NavLink>
             </div>
